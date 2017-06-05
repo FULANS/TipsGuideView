@@ -1,6 +1,6 @@
 # TipsGuideView
 
-  https://github.com/FULANS/TipsGuideView/raw/master/TipsGuideView/录屏.gif
+  https://github.com/FULANS/TipsGuideView/raw/master/TipsGuideView/录屏
 
 1.参考https://github.com/sunljz/demo  
 2.优化:支持传入多个按钮与tips 和 支持传入多个rect(存在tabbar和navibar的情况)和tips

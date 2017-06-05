@@ -18,7 +18,6 @@
 		D1BB06D51EE14C6F00C725F3 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB06D41EE14C6F00C725F3 /* UIView+Layout.m */; };
 		D1BB06D81EE14CA700C725F3 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB06D71EE14CA700C725F3 /* UIImage+Mask.m */; };
 		D1BB06DB1EE14CCB00C725F3 /* TipsGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB06DA1EE14CCB00C725F3 /* TipsGuideView.m */; };
-		D1BB06DE1EE4F91900C725F3 /* 录屏.gif in Resources */ = {isa = PBXBuildFile; fileRef = D1BB06DD1EE4F91900C725F3 /* 录屏.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		D1BB06D71EE14CA700C725F3 /* UIImage+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Mask.m"; sourceTree = "<group>"; };
 		D1BB06D91EE14CCB00C725F3 /* TipsGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsGuideView.h; sourceTree = "<group>"; };
 		D1BB06DA1EE14CCB00C725F3 /* TipsGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsGuideView.m; sourceTree = "<group>"; };
-		D1BB06DD1EE4F91900C725F3 /* 录屏.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "录屏.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,6 @@
 		D1BB06B51EE14BB600C725F3 /* TipsGuideDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D1BB06DC1EE4F91900C725F3 /* guide */,
 				D1BB06D01EE14C0100C725F3 /* TipsGuideView */,
 				D1BB06B91EE14BB600C725F3 /* AppDelegate.h */,
 				D1BB06BA1EE14BB600C725F3 /* AppDelegate.m */,
@@ -109,14 +106,6 @@
 				D1BB06DA1EE14CCB00C725F3 /* TipsGuideView.m */,
 			);
 			path = TipsGuideView;
-			sourceTree = "<group>";
-		};
-		D1BB06DC1EE4F91900C725F3 /* guide */ = {
-			isa = PBXGroup;
-			children = (
-				D1BB06DD1EE4F91900C725F3 /* 录屏.gif */,
-			);
-			path = guide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BB06DE1EE4F91900C725F3 /* 录屏.gif in Resources */,
 				D1BB06C91EE14BB600C725F3 /* LaunchScreen.storyboard in Resources */,
 				D1BB06D21EE14C1E00C725F3 /* TipsResources.xcassets in Resources */,
 				D1BB06C61EE14BB600C725F3 /* Assets.xcassets in Resources */,

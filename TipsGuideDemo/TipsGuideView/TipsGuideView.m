@@ -41,6 +41,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.index = 0;
+        self.layer.zPosition = 1;
         [self addSubview:self.topMaskView];
         [self addSubview:self.bottomMaskView];
         [self addSubview:self.leftMaskView];

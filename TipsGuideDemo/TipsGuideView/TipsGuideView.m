@@ -79,6 +79,12 @@
     _rightMaskView.width = self.width - _rightMaskView.left;
     _rightMaskView.height = _btnMaskView.height;
     
+    
+    CGFloat kWidth = self.width;
+    
+    CGFloat label_width = MAX(_btnMaskView.width, kWidth * 3 / 4);
+    _tipsLabel.frame = CGRectMake( (kWidth - label_width) / 2 ,0, label_width, 20);
+    
     _tipsLabel.text = self.tipsStr;
     [_tipsLabel sizeToFit];
     
@@ -188,12 +194,16 @@
 }
 
 
-
 - (void)dismiss {
     [UIView animateWithDuration:0.2 animations:^{
         self.alpha = 0;
     } completion:^(BOOL finished) {
         [self removeFromSuperview];
+        
+        if (self.FinishBlock) {
+            self.FinishBlock();
+        }
+        
     }];
 }
 
@@ -224,8 +234,8 @@
 
 - (UIImageView *)btnMaskView {
     if (!_btnMaskView) {
-        UIImage *image = [UIImage imageNamed:@"whiteMask"];
-        image = [image maskImage:[[UIColor blackColor] colorWithAlphaComponent:0.71]];
+        UIImage *image = [UIImage imageNamed:@"whiteMask2"];
+        image = [image maskImage:[[UIColor blackColor] colorWithAlphaComponent:0.80]];
         UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
         _btnMaskView = imageView;
     }
@@ -257,7 +267,7 @@
 - (UIView *)topMaskView {
     if (!_topMaskView) {
         UIView *view = [[UIView alloc] init];
-        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.71];
+        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.80];
         _topMaskView = view;
     }
     return _topMaskView;
@@ -266,7 +276,7 @@
 - (UIView *)bottomMaskView {
     if (!_bottomMaskView) {
         UIView *view = [[UIView alloc] init];
-        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.71];
+        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.80];
         _bottomMaskView = view;
     }
     return _bottomMaskView;
@@ -275,7 +285,7 @@
 - (UIView *)leftMaskView {
     if (!_leftMaskView) {
         UIView *view = [[UIView alloc] init];
-        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.71];
+        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.80];
         _leftMaskView = view;
     }
     return _leftMaskView;
@@ -284,7 +294,7 @@
 - (UIView *)rightMaskView {
     if (!_rightMaskView) {
         UIView *view = [[UIView alloc] init];
-        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.71];
+        view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.80];
         _rightMaskView = view;
     }
     return _rightMaskView;

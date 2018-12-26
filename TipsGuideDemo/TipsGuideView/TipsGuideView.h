@@ -18,5 +18,8 @@
 - (void)showInView:(UIView *)view maskRects:(NSArray <NSValue *>*)rects withTips:(NSArray <NSString *>*)tipsArr;
 
 
+@property (copy, nonatomic) void (^FinishBlock)();
+
 
 @end
+

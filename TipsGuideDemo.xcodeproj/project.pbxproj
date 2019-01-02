@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F035CBC21DCAFB300685734 /* 华康翩翩体简标准体.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F035CBB21DCAFB200685734 /* 华康翩翩体简标准体.otf */; };
 		D1BB06B81EE14BB600C725F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB06B71EE14BB600C725F3 /* main.m */; };
 		D1BB06BB1EE14BB600C725F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB06BA1EE14BB600C725F3 /* AppDelegate.m */; };
 		D1BB06BE1EE14BB600C725F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BB06BD1EE14BB600C725F3 /* ViewController.m */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F035CBB21DCAFB200685734 /* 华康翩翩体简标准体.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康翩翩体简标准体.otf"; sourceTree = "<group>"; };
 		D1BB06B31EE14BB600C725F3 /* TipsGuideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsGuideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BB06B71EE14BB600C725F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1BB06B91EE14BB600C725F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		D1BB06D01EE14C0100C725F3 /* TipsGuideView */ = {
 			isa = PBXGroup;
 			children = (
+				5F035CBB21DCAFB200685734 /* 华康翩翩体简标准体.otf */,
 				D1BB06D11EE14C1E00C725F3 /* TipsResources.xcassets */,
 				D1BB06D31EE14C6F00C725F3 /* UIView+Layout.h */,
 				D1BB06D41EE14C6F00C725F3 /* UIView+Layout.m */,
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BB06C91EE14BB600C725F3 /* LaunchScreen.storyboard in Resources */,
+				5F035CBC21DCAFB300685734 /* 华康翩翩体简标准体.otf in Resources */,
 				D1BB06D21EE14C1E00C725F3 /* TipsResources.xcassets in Resources */,
 				D1BB06C61EE14BB600C725F3 /* Assets.xcassets in Resources */,
 				D1BB06C11EE14BB600C725F3 /* Main.storyboard in Resources */,

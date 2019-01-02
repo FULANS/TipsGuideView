@@ -1,5 +1,5 @@
 # TipsGuideView
-![image](https://github.com/FULANS/TipsGuideView/raw/master/guide/guide.gif)
+![image](https://github.com/FULANS/TipsGuideView/raw/master/guide/guide2.gif)
 
 
 
@@ -9,7 +9,11 @@
 4. 自定义字体设置:
     4-1. 将otf文件导入工程
     4-2. 在Info.plist 文件中 添加描述:  Fonts provided by application
+    
     ![image](https://github.com/FULANS/TipsGuideView/raw/master/guide/font1.png)
+    
     4-3. 双击字体，安装到Mac,  点击字体界面左上角的 " 感叹号 " , 然后右侧出现字体的详情信息, 获取到PostScript 名称
+    
     ![image](https://github.com/FULANS/TipsGuideView/raw/master/guide/font.png)
+    
     4-4. 代码设置: tipsLabel.font = [UIFont fontWithName:@"HanziPenSC-W3" size:16];
